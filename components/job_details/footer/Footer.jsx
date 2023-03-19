@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-import styles from './footer.style'
+import styles from './Footer.style'
 
 const Footer = () => {
   return (

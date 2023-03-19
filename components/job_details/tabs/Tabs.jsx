@@ -1,14 +1,14 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from "react";
+import { View, Text } from "react-native";
 
-import styles from './tabs.style'
+import styles from "./Tabs.style";
 
 const Tabs = () => {
   return (
     <View>
       <Text>Tabs</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Tabs
+export default Tabs;
