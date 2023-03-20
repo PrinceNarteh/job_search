@@ -1,14 +1,14 @@
 import { Stack, useRouter } from "expo-router";
 import React from "react";
-import { View, Text, SafeAreaView, ScrollView } from "react-native";
+import { SafeAreaView, ScrollView, View } from "react-native";
 import {
   NearByJobs,
   PopularJobs,
   ScreenHeaderBtn,
   Welcome,
-} from "../components";
+} from "@/components";
 
-import { COLORS, icons, images, SIZES } from "../constants";
+import { COLORS, icons, images, SIZES } from "@/constants";
 
 const Home = () => {
   const router = useRouter();

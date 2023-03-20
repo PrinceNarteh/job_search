@@ -1,6 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, ViewStyle } from "react-native";
 
-import { COLORS, FONT, SHADOWS, SIZES } from "../../../../constants";
+import { COLORS, FONT, SHADOWS, SIZES } from "@/constants";
 
 const styles = StyleSheet.create({
   container: (selectedJob, item) => ({
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   infoContainer: {
     marginTop: SIZES.large,
   },
-  jobName: (selectedJob, item) => ({
+  jobName: (selectedJob, item): ViewStyle => ({
     fontSize: SIZES.large,
     fontFamily: FONT.medium,
     color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
