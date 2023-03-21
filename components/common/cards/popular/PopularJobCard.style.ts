@@ -91,16 +91,14 @@ const location = StyleSheet.create({
   },
 });
 
-const styles = {
+export default {
   container,
   logoContainer,
   jobName,
   publisher,
-  logoImage,
-  companyName,
-  infoContainer,
-  infoWrapper,
-  location,
+  ...logoImage,
+  ...companyName,
+  ...infoContainer,
+  ...infoWrapper,
+  ...location,
 };
-
-export default styles;

@@ -6,7 +6,7 @@ import {
   PopularJobs,
   ScreenHeaderBtn,
   Welcome,
-} from "@/components";
+} from "../components";
 
 import { COLORS, icons, images, SIZES } from "@/constants";
 
