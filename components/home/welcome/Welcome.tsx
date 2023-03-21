@@ -10,15 +10,13 @@ const Welcome = () => {
 
   return (
     <View>
-      <View style={styles().container}>
-        <Text style={styles().userName}>Hello, Prinart</Text>
-        <Text style={styles().welcomeMessage}>Find your perfect job</Text>
+      <View style={styles.container}>
+        <Text style={styles.userName}>Hello, Prinart</Text>
+        <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
-      <View style={styles().searchContainer}>
-        <View style={styles().searchWrapper}>
-          
-        </View>
+      <View style={styles.searchContainer}>
+        <View style={styles.searchWrapper}></View>
       </View>
     </View>
   );

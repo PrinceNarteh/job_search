@@ -1,6 +1,6 @@
 import { StyleSheet, ViewStyle } from "react-native";
 
-import { COLORS, FONT, SHADOWS, SIZES } from "@/constants";
+import { COLORS, FONT, SHADOWS, SIZES } from "../../../../constants";
 
 type Styles = {
   selectedJob: string;

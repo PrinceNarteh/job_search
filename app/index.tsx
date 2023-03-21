@@ -8,7 +8,7 @@ import {
   Welcome,
 } from "../components";
 
-import { COLORS, icons, images, SIZES } from "@/constants";
+import { COLORS, icons, images, SIZES } from "../constants";
 
 const Home = () => {
   const router = useRouter();
